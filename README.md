@@ -2,7 +2,7 @@
 
 Jquery: 
 
-function removeDuplicate(url) {
+***function removeDuplicate(url) {
   url = decodeURIComponent(url);                  // decode the url,remove %5B becomes
   var query = url.split('?')[1];                  // get only the query
   var parts = query.split('&');                  // split the query into parts
@@ -24,7 +24,7 @@ function removeDuplicate(url) {
     if (i !== keys.length - 1) url += '&';
   }
   return url;
-}
+}***
 
 Higher order function(filter): most recommended
 const link = "http://example.com/?foo=42&bar=43&foo=42&bar=43"
